@@ -4,5 +4,10 @@
 
 html {
     background-color: black;
-    color: white;
+    color: white; 
+}
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
 }
