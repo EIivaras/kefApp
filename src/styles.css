@@ -3,11 +3,22 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
 html {
-    background-color: black;
-    color: white; 
+    color: #999999; 
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
     margin-left: 10%;
     margin-right: 10%;
+}
+
+.mat-card {
+    color: #999999; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.centered {
+    text-align: center;
 }
