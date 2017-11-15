@@ -3,10 +3,18 @@
     <h1>Welcome to the Official Website of the Krytan Expeditionary Force!</h1>
     <img src="http://data.gw2.fr/guild-emblem/name/Krytan%20Expeditionary%20Force.png">
     <p>Here, we offer the following:</p>
-    <div>Rules and Conduct for Guild Members in Discord & In-Game</div>
-    <div>An FAQ for All the Information You Might Need</div>
-    <div>Various Resources that You Might Find Useful</div>
-    <div>Articles on All Things KEF & GW2</div>
+    <mat-card class="half-width" (click)="rulesClick()">
+      <span>Rules and Conduct for Guild Members in Discord & In-Game</span>
+    </mat-card>
+    <mat-card class="half-width" (click)="faqClick()">
+      <span>An FAQ for All the Information You Might Need</span>
+    </mat-card>
+    <mat-card class="half-width" (click)="resourcesClick()">
+      <span>Various Resources that You Might Find Useful</span>
+    </mat-card>
+    <mat-card class="half-width" (click)="articlesClick()">
+      <span>Articles on All Things KEF & GW2</span>
+    </mat-card>
     <p>
       We hope you enjoy your stay. If you have questions/feedback/concerns about the website, 
       please PM Elivaras#3544 on Discord, or mail ZachAttack.3957 In-Game!

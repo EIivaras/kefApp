@@ -1,3 +1,14 @@
 ul {
     display: inline-block;
 }
+
+.half-width {
+    margin-left: 25%;
+    margin-right: 25%;
+    color: #990000;
+}
+
+.half-width:hover {
+    background-color: #e2e2e2;
+    cursor: pointer;
+}
