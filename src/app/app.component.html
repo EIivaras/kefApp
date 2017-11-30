@@ -11,8 +11,9 @@
           <button mat-menu-item routerLink="/resources" routerLinkActive="active">Resources</button>
         </mat-menu>
         <button mat-button [matMenuTriggerFor]="articles">Articles</button>
-        <mat-menu #articles="matMenu">
+        <mat-menu #articles>
           <button mat-menu-item routerLink="/introduction-to-roleplay" routerLinkActive="active">Introduction to Roleplay</button>
+          <button mat-menu-item routerLink="/creating-your-character" routerLinkActive="active">Creating Your Character</button>
         </mat-menu>
     </mat-toolbar>
 </div>

@@ -4,6 +4,7 @@ import { NgModule }                        from '@angular/core';
 import { RouterModule, Routes }            from '@angular/router';
 
 import { AppComponent }                    from './app.component';
+import { CreatingYourCharacterComponent } from './creating-your-character/creating-your-character.component';
 import { FaqComponent }                    from './faq/faq.component';
 import { GettingStartedComponent }         from './getting-started/getting-started.component';
 import { IntroductionToRoleplayComponent } from './introduction-to-roleplay/introduction-to-roleplay.component';
@@ -19,6 +20,7 @@ const appRoutes: Routes = [
   { path: 'faq', component: FaqComponent },
   { path: 'resources', component: ResourcesComponent},
   { path: 'introduction-to-roleplay', component: IntroductionToRoleplayComponent },
+  { path: 'creating-your-character', component: CreatingYourCharacterComponent },
   { path: '', redirectTo: '/getting-started', pathMatch: 'full' },
   { path: '**', component: PageNotFoundComponent },
 ];
@@ -26,12 +28,13 @@ const appRoutes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
+    CreatingYourCharacterComponent,
     FaqComponent,
     GettingStartedComponent,
+    IntroductionToRoleplayComponent,
     PageNotFoundComponent,
     RulesComponent,
     ResourcesComponent,
-    IntroductionToRoleplayComponent,
   ],
   imports: [
     RouterModule.forRoot(appRoutes),

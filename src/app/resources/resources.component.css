@@ -6,3 +6,8 @@ a {
 ul {
     padding: 0;
 }
+
+.link:hover {
+    background-color: #e2e2e2;
+    cursor: pointer;
+}
