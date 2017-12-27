@@ -33,9 +33,24 @@ export class ResourcesComponent implements OnInit {
     );
   }
 
+  submissionClick() {
+    window.open(
+      'https://goo.gl/forms/V5tPIcmleOnWIOka2',
+      '_blank'
+
+    );
+  }
+
   villainClick() {
     window.open(
       'https://docs.google.com/forms/d/e/1FAIpQLSeJDDkQUITA_APxHPwOaNl_Hr5-8YODaRYl2rSN_b2pisb0pA/viewform',
+      '_blank'
+    );
+  }
+
+  writerClick() {
+    window.open(
+      'https://goo.gl/forms/cbHxJ1X0VGsIkUN12',
       '_blank'
     );
   }
