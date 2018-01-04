@@ -1,17 +1,18 @@
-import { BrowserAnimationsModule }         from '@angular/platform-browser/animations';
-import { BrowserModule }                   from '@angular/platform-browser';
-import { NgModule }                        from '@angular/core';
-import { RouterModule, Routes }            from '@angular/router';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
 
-import { AppComponent }                    from './app.component';
+import { AppComponent } from './app.component';
 import { CreatingYourCharacterComponent } from './creating-your-character/creating-your-character.component';
-import { FaqComponent }                    from './faq/faq.component';
-import { GettingStartedComponent }         from './getting-started/getting-started.component';
+import { FaqComponent } from './faq/faq.component';
+import { GettingStartedComponent } from './getting-started/getting-started.component';
 import { IntroductionToRoleplayComponent } from './introduction-to-roleplay/introduction-to-roleplay.component';
-import { MaterialsModule }                 from './materials/materials.module';
-import { PageNotFoundComponent }           from './page-not-found/page-not-found.component';
-import { ResourcesComponent }              from './resources/resources.component';
-import { RulesComponent }                  from './rules/rules.component';
+import { MaterialsModule } from './materials/materials.module';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { ResourcesComponent } from './resources/resources.component';
+import { RulesComponent } from './rules/rules.component';
+import { UpcomingEventsComponent } from './upcoming-events/upcoming-events.component';
 
 
 const appRoutes: Routes = [
@@ -21,6 +22,7 @@ const appRoutes: Routes = [
   { path: 'resources', component: ResourcesComponent},
   { path: 'introduction-to-roleplay', component: IntroductionToRoleplayComponent },
   { path: 'creating-your-character', component: CreatingYourCharacterComponent },
+  { path: 'upcoming-events', component: UpcomingEventsComponent },
   { path: '', redirectTo: '/getting-started', pathMatch: 'full' },
   { path: '**', component: PageNotFoundComponent },
 ];
@@ -35,6 +37,7 @@ const appRoutes: Routes = [
     PageNotFoundComponent,
     RulesComponent,
     ResourcesComponent,
+    UpcomingEventsComponent,
   ],
   imports: [
     RouterModule.forRoot(appRoutes),
