@@ -1,8 +1,8 @@
-ul {
-    padding: 0;
-}
-
 .half-width {
     margin-left: 15%;
     margin-right: 15%;
+}
+
+ul {
+  padding: 0;
 }
