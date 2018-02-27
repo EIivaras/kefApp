@@ -2,19 +2,13 @@
 
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
-html {
-    color: #999999; 
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 body {
-    margin-left: 10%;
-    margin-right: 10%;
+  color: #212121;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
 }
 
 .mat-card {
-    color: #999999; 
-    font-family: Arial, Helvetica, sans-serif;
     margin-top: 1%;
     margin-bottom: 1%;
 }

@@ -1,0 +1,21 @@
+<mat-card>
+  <mat-card-title>Articles</mat-card-title>
+  <mat-card-content>
+    Find information on game subjects written by our very own KEF guild members.
+  </mat-card-content>
+</mat-card>
+<mat-card>
+  <mat-card-title>Recent Articles</mat-card-title>
+  <mat-card class="article" (click)="routeToArticle('introduction-to-roleplay')">
+    <mat-card-title-group>
+      <mat-card-title>Introduction to Roleplaying</mat-card-title>
+      <mat-card-subtitle>Learn the essentials of roleplaying, and the specifics of how KEF members roleplay in Guild Wars 2 in this guide by Elivaras.</mat-card-subtitle>
+    </mat-card-title-group>
+  </mat-card>
+  <mat-card class="article" (click)="routeToArticle('creating-your-character')">
+    <mat-card-title-group>
+      <mat-card-title>Creating Your Character</mat-card-title>
+      <mat-card-subtitle>Sacco takes us on an in-depth tour of creating a character and translating their history and traits into their character.</mat-card-subtitle>
+    </mat-card-title-group>
+  </mat-card>
+</mat-card>
