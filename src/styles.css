@@ -3,16 +3,17 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
 body {
-  color: #212121;
+  background-color: #fcfcfc;
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
 }
 
 .mat-card {
-    margin-top: 1%;
-    margin-bottom: 1%;
+  color: #4c4c4c;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 .centered {
-    text-align: center;
+  text-align: center;
 }
