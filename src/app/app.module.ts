@@ -13,6 +13,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { ResourcesComponent } from './resources/resources.component';
 import { RulesComponent } from './rules/rules.component';
 import { UpcomingEventsComponent } from './upcoming-events/upcoming-events.component';
+import { ArticlesComponent } from './articles/articles.component';
 
 
 const appRoutes: Routes = [
@@ -20,9 +21,10 @@ const appRoutes: Routes = [
   { path: 'rules', component: RulesComponent },
   { path: 'faq', component: FaqComponent },
   { path: 'resources', component: ResourcesComponent},
-  { path: 'introduction-to-roleplay', component: IntroductionToRoleplayComponent },
-  { path: 'creating-your-character', component: CreatingYourCharacterComponent },
   { path: 'upcoming-events', component: UpcomingEventsComponent },
+  { path: 'articles', component: ArticlesComponent },
+  { path: 'articles/introduction-to-roleplay', component: IntroductionToRoleplayComponent },
+  { path: 'articles/creating-your-character', component: CreatingYourCharacterComponent },
   { path: '', redirectTo: '/getting-started', pathMatch: 'full' },
   { path: '**', component: PageNotFoundComponent },
 ];
@@ -38,6 +40,7 @@ const appRoutes: Routes = [
     RulesComponent,
     ResourcesComponent,
     UpcomingEventsComponent,
+    ArticlesComponent,
   ],
   imports: [
     RouterModule.forRoot(appRoutes),
