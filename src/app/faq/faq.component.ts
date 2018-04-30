@@ -12,4 +12,10 @@ export class FaqComponent implements OnInit {
   ngOnInit() {
   }
 
+  leadingAppClick () {
+    window.open(
+      'https://docs.google.com/forms/d/17O7JEjIKPquEjvb9GDmSI4r7htgrmjaKIG9ctX63t80/edit'
+    );
+  }
+
 }

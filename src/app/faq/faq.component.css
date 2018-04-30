@@ -1,3 +1,11 @@
 ul {
     padding: 0;
 }
+
+.link {
+ color: #502c2c;
+}
+
+.link:hover {
+  cursor: pointer;
+}
