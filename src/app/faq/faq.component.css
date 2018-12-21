@@ -2,10 +2,18 @@ ul {
     padding: 0;
 }
 
+.indent{
+  margin-left: 30px;
+}
+
 .link {
- color: #502c2c;
+ color: rgb(163, 30, 4);
 }
 
 .link:hover {
   cursor: pointer;
+}
+
+.top-margin {
+  margin-top: 10px;
 }
