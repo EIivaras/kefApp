@@ -9,7 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng build --prod && angular-cli-ghpages"
+    "deploy": "ng build --prod && angular-cli-ghpages --repo https://eiivaras:zach0924@github.com/EIivaras/kefApp.git"
   },
   "private": true,
   "dependencies": {
