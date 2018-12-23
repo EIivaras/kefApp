@@ -15,7 +15,8 @@ export class FaqComponent implements OnInit {
 
   leadingAppClick () {
     window.open(
-      'https://docs.google.com/forms/d/17O7JEjIKPquEjvb9GDmSI4r7htgrmjaKIG9ctX63t80/edit'
+      'https://docs.google.com/forms/d/e/1FAIpQLSeOfeFSalIqfzMZmHQo4T_9IklgoaJTGFZkOXJ-zVPU5R0GrA/viewform?usp=sf_link',
+      '_blank'
     );
   }
 

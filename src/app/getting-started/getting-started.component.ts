@@ -26,6 +26,6 @@ export class GettingStartedComponent implements OnInit {
   }
 
   articlesClick() {
-    this._router.navigateByUrl('/introduction-to-roleplay');
+    this._router.navigateByUrl('/articles');
   }
 }

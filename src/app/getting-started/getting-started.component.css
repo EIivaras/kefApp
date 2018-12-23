@@ -5,10 +5,9 @@ ul {
 .half-width {
     margin-left: 25%;
     margin-right: 25%;
-    color: #ca3939;
 }
 
 .half-width:hover {
-    background-color: #e2e2e2;
+    background-color: #502c2c;
     cursor: pointer;
 }

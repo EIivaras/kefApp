@@ -55,6 +55,13 @@ export class ResourcesComponent implements OnInit {
     );
   }
 
+  leaderAppClick() {
+    window.open(
+      'https://docs.google.com/forms/d/e/1FAIpQLSeOfeFSalIqfzMZmHQo4T_9IklgoaJTGFZkOXJ-zVPU5R0GrA/viewform?usp=sf_link',
+      '_blank'
+    );
+  }
+
   addResourcesClick() {
     window.open(
       'https://drive.google.com/drive/folders/0B4OGFj1Iq3sqUWhMWTdHdExPRTA',
