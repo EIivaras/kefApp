@@ -28,4 +28,8 @@ export class GettingStartedComponent implements OnInit {
   articlesClick() {
     this._router.navigateByUrl('/articles');
   }
+
+  eventsClick() {
+    this._router.navigateByUrl('/upcoming-events');
+  }
 }
