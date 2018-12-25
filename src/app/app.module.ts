@@ -16,10 +16,12 @@ import { UpcomingEventsComponent } from './upcoming-events/upcoming-events.compo
 import { ArticlesComponent } from './articles/articles.component';
 import { SideArcsComponent } from './side-arcs/side-arcs.component';
 import { KefAffairsComponent } from './kef-affairs/kef-affairs.component';
+import { NoticeBoardComponent } from './notice-board/notice-board.component';
 
 
 const appRoutes: Routes = [
   { path: 'getting-started', component: GettingStartedComponent },
+  { path: 'notice-board', component: NoticeBoardComponent },
   { path: 'rules', component: RulesComponent },
   { path: 'faq', component: FaqComponent },
   { path: 'kef-affairs', component: KefAffairsComponent },
@@ -47,6 +49,7 @@ const appRoutes: Routes = [
     ArticlesComponent,
     SideArcsComponent,
     KefAffairsComponent,
+    NoticeBoardComponent,
   ],
   imports: [
     RouterModule.forRoot(appRoutes),

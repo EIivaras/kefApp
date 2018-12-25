@@ -1,0 +1,13 @@
+.background {
+    background-image: url("Background.png");
+    font-family: "Papyrus";
+    font-size: 35px;
+    min-height: 1000px;
+    text-shadow: 1px 1px black;
+    font-weight: 900;
+}
+  
+.event-title {
+    font-family: "Blackadder ITC";
+    font-size: 120px;
+}
