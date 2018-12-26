@@ -28,7 +28,7 @@ export class ResourcesComponent implements OnInit {
 
   summaryClick() {
     window.open(
-      'https://docs.google.com/document/d/1HiDB05nDKABYEfbRQI8-KXGr9e5qMkV64OrHmlo29Yc/edit',
+      'https://docs.google.com/document/d/1HiDB05nDKABYEfbRQI8-KXGr9e5qMkV64OrHmlo29Yc/edit?usp=sharing',
       '_blank'
     );
   }
@@ -61,12 +61,4 @@ export class ResourcesComponent implements OnInit {
       '_blank'
     );
   }
-
-  addResourcesClick() {
-    window.open(
-      'https://drive.google.com/drive/folders/0B4OGFj1Iq3sqUWhMWTdHdExPRTA',
-      '_blank'
-    );
-  }
-
 }
