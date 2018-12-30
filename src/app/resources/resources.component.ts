@@ -21,7 +21,7 @@ export class ResourcesComponent implements OnInit {
 
   combatClick() {
     window.open(
-      'https://docs.google.com/document/d/1EJ7Y_VhvtorK9EKMKf2y5v8qAUoywd7uMWeogHjdgK4/edit',
+      'https://docs.google.com/document/d/1kuFeJBG6Ijl8ovl782dkhvwZOJsp7A8KVYRuC_VPrlQ/edit?usp=sharing',
       '_blank'
     );
   }
