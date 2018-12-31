@@ -7,6 +7,15 @@
   text-shadow: 1px 1px black;
 }
 
+.tourneyBackground {
+  background-image: url("tourneyBackground.jpg");
+  color: white;
+  font-family: "Papyrus";
+  font-size: 30px;
+  min-height: 1000px;
+  text-shadow: 1px 1px 10px black;
+}
+
 .event-title {
   color: white;
   font-family: "Blackadder ITC";
