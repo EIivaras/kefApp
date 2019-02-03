@@ -7,13 +7,18 @@
   text-shadow: 1px 1px black;
 }
 
-.tourneyBackground {
-  background-image: url("tourneyBackground.jpg");
+.xunlaiBackground {
+  background-image: url("xunlaiBackground.jpg");
   color: white;
   font-family: "Papyrus";
   font-size: 30px;
   min-height: 1000px;
-  text-shadow: 1px 1px 10px black;
+  text-shadow: 1px 1px black;
+}
+
+.small-font {
+  font-size: 15px;
+  margin-top: 300px;
 }
 
 .event-title {
