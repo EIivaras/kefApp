@@ -72623,7 +72623,7 @@ _angular_platform_browser__WEBPACK_IMPORTED_MODULE_4__["platformBrowser"]().boot
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Code\KefApp\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\Code\kefApp\src\main.ts */"./src/main.ts");
 
 
 /***/ })
