@@ -71030,7 +71030,7 @@ __webpack_require__.r(__webpack_exports__);
  * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
  * tslint:disable
  */ 
-var styles = [".top-nav[_ngcontent-%COMP%] {\n  position: fixed;\n  left: 0px;\n  right: 0px;\n  top: 0px;\n  z-index: 1000;\n\n\tbox-shadow: 0 3px 5px -1px rgba(0,0,0,.2),\n              0 6px 10px 0 rgba(0,0,0,.14),\n              0 1px 18px 0 rgba(0,0,0,.12);\n\n\t-webkit-box-shadow: 0 3px 5px -1px rgba(0,0,0,.2),\n                      0 6px 10px 0 rgba(0,0,0,.14),\n                      0 1px 18px 0 rgba(0,0,0,.12);\n}\n\n.main[_ngcontent-%COMP%] {\n    margin-left: 10%;\n    margin-right: 10%;\n    margin-top: 450px;\n    margin-bottom: 200px;\n}"];
+var styles = [".top-nav[_ngcontent-%COMP%] {\r\n  position: fixed;\r\n  left: 0px;\r\n  right: 0px;\r\n  top: 0px;\r\n  z-index: 1000;\r\n\r\n\tbox-shadow: 0 3px 5px -1px rgba(0,0,0,.2),\r\n              0 6px 10px 0 rgba(0,0,0,.14),\r\n              0 1px 18px 0 rgba(0,0,0,.12);\r\n\r\n\t-webkit-box-shadow: 0 3px 5px -1px rgba(0,0,0,.2),\r\n                      0 6px 10px 0 rgba(0,0,0,.14),\r\n                      0 1px 18px 0 rgba(0,0,0,.12);\r\n}\r\n\r\n.main[_ngcontent-%COMP%] {\r\n    margin-left: 10%;\r\n    margin-right: 10%;\r\n    margin-top: 450px;\r\n    margin-bottom: 200px;\r\n}"];
 
 
 
@@ -71328,7 +71328,7 @@ __webpack_require__.r(__webpack_exports__);
  * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
  * tslint:disable
  */ 
-var styles = ["mat-card.article[_ngcontent-%COMP%]:hover {\n  background-color: #502c2c;\n  cursor: pointer;\n}"];
+var styles = ["mat-card.article[_ngcontent-%COMP%]:hover {\r\n  background-color: #502c2c;\r\n  cursor: pointer;\r\n}"];
 
 
 
@@ -71430,7 +71430,7 @@ __webpack_require__.r(__webpack_exports__);
  * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
  * tslint:disable
  */ 
-var styles = [".half-width[_ngcontent-%COMP%] {\n    margin-left: 15%;\n    margin-right: 15%;\n}\n\nul[_ngcontent-%COMP%] {\n  padding: 0;\n}"];
+var styles = [".half-width[_ngcontent-%COMP%] {\r\n    margin-left: 15%;\r\n    margin-right: 15%;\r\n}\r\n\r\nul[_ngcontent-%COMP%] {\r\n  padding: 0;\r\n}"];
 
 
 
@@ -71537,7 +71537,7 @@ __webpack_require__.r(__webpack_exports__);
  * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
  * tslint:disable
  */ 
-var styles = ["ul[_ngcontent-%COMP%] {\n    padding: 0;\n}\n\n.indent[_ngcontent-%COMP%]{\n  margin-left: 30px;\n}\n\n.link[_ngcontent-%COMP%] {\n color: #ca3939;\n}\n\n.link[_ngcontent-%COMP%]:hover {\n  cursor: pointer;\n}\n\n.top-margin[_ngcontent-%COMP%] {\n  margin-top: 10px;\n}"];
+var styles = ["ul[_ngcontent-%COMP%] {\r\n    padding: 0;\r\n}\r\n\r\n.indent[_ngcontent-%COMP%]{\r\n  margin-left: 30px;\r\n}\r\n\r\n.link[_ngcontent-%COMP%] {\r\n color: #ca3939;\r\n}\r\n\r\n.link[_ngcontent-%COMP%]:hover {\r\n  cursor: pointer;\r\n}\r\n\r\n.top-margin[_ngcontent-%COMP%] {\r\n  margin-top: 10px;\r\n}"];
 
 
 
@@ -71642,7 +71642,7 @@ __webpack_require__.r(__webpack_exports__);
  * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
  * tslint:disable
  */ 
-var styles = ["ul[_ngcontent-%COMP%] {\n    display: inline-block;\n}\n\n.half-width[_ngcontent-%COMP%] {\n    margin-left: 25%;\n    margin-right: 25%;\n}\n\n.half-width[_ngcontent-%COMP%]:hover {\n    background-color: #502c2c;\n    cursor: pointer;\n}"];
+var styles = ["ul[_ngcontent-%COMP%] {\r\n    display: inline-block;\r\n}\r\n\r\n.half-width[_ngcontent-%COMP%] {\r\n    margin-left: 25%;\r\n    margin-right: 25%;\r\n}\r\n\r\n.half-width[_ngcontent-%COMP%]:hover {\r\n    background-color: #502c2c;\r\n    cursor: pointer;\r\n}"];
 
 
 
@@ -71765,7 +71765,7 @@ __webpack_require__.r(__webpack_exports__);
  * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
  * tslint:disable
  */ 
-var styles = ["li[_ngcontent-%COMP%]{\n  margin-top: 10px;\n}"];
+var styles = ["li[_ngcontent-%COMP%]{\r\n  margin-top: 10px;\r\n}"];
 
 
 
@@ -71872,7 +71872,7 @@ __webpack_require__.r(__webpack_exports__);
  * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
  * tslint:disable
  */ 
-var styles = [".highlight[_ngcontent-%COMP%]:hover {\n    background-color: #502c2c;\n    cursor: pointer;\n}"];
+var styles = [".highlight[_ngcontent-%COMP%]:hover {\r\n    background-color: #502c2c;\r\n    cursor: pointer;\r\n}"];
 
 
 
@@ -72016,7 +72016,7 @@ __webpack_require__.r(__webpack_exports__);
  * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
  * tslint:disable
  */ 
-var styles = [".background[_ngcontent-%COMP%] {\n    background-image: url('Background.b85644cc56efb99c8107.png');\n    font-family: \"Papyrus\";\n    font-size: 35px;\n    min-height: 1000px;\n    text-shadow: 1px 1px black;\n    font-weight: 900;\n}\n  \n.event-title[_ngcontent-%COMP%] {\n    font-family: \"Blackadder ITC\";\n    font-size: 120px;\n}"];
+var styles = [".background[_ngcontent-%COMP%] {\r\n    background-image: url('Background.b85644cc56efb99c8107.png');\r\n    font-family: \"Papyrus\";\r\n    font-size: 35px;\r\n    min-height: 1000px;\r\n    text-shadow: 1px 1px black;\r\n    font-weight: 900;\r\n}\r\n  \r\n.event-title[_ngcontent-%COMP%] {\r\n    font-family: \"Blackadder ITC\";\r\n    font-size: 120px;\r\n}"];
 
 
 
@@ -72192,7 +72192,7 @@ __webpack_require__.r(__webpack_exports__);
  * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
  * tslint:disable
  */ 
-var styles = ["a[_ngcontent-%COMP%] {\n    color: #990000;\n    opacity: 0.7;\n}\n\nul[_ngcontent-%COMP%] {\n    padding: 0;\n}\n\n.link[_ngcontent-%COMP%]:hover {\n    background-color: #502c2c;\n    cursor: pointer;\n}"];
+var styles = ["a[_ngcontent-%COMP%] {\r\n    color: #990000;\r\n    opacity: 0.7;\r\n}\r\n\r\nul[_ngcontent-%COMP%] {\r\n    padding: 0;\r\n}\r\n\r\n.link[_ngcontent-%COMP%]:hover {\r\n    background-color: #502c2c;\r\n    cursor: pointer;\r\n}"];
 
 
 
@@ -72322,7 +72322,7 @@ __webpack_require__.r(__webpack_exports__);
  * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
  * tslint:disable
  */ 
-var styles = ["ol[_ngcontent-%COMP%] {\n    padding-left:0;\n}"];
+var styles = ["ol[_ngcontent-%COMP%] {\r\n    padding-left:0;\r\n}"];
 
 
 
@@ -72498,7 +72498,7 @@ __webpack_require__.r(__webpack_exports__);
  * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
  * tslint:disable
  */ 
-var styles = [".background[_ngcontent-%COMP%] {\n  background-image: url('Background3.3fb472199044785c94a8.png');\n  color: white;\n  font-family: \"Papyrus\";\n  font-size: 30px;\n  min-height: 1000px;\n  text-shadow: 1px 1px black;\n}\n\n.xunlaiBackground[_ngcontent-%COMP%] {\n  background-image: url('xunlaiBackground.99bf115ba1d3831aa60e.jpg');\n  color: white;\n  font-family: \"Papyrus\";\n  font-size: 30px;\n  min-height: 1000px;\n  text-shadow: 1px 1px black;\n}\n\n.small-font[_ngcontent-%COMP%] {\n  font-size: 15px;\n  margin-top: 300px;\n}\n\n.event-title[_ngcontent-%COMP%] {\n  color: white;\n  font-family: \"Blackadder ITC\";\n  font-size: 120px;\n}"];
+var styles = [".background[_ngcontent-%COMP%] {\r\n  background-image: url('Background3.3fb472199044785c94a8.png');\r\n  color: white;\r\n  font-family: \"Papyrus\";\r\n  font-size: 30px;\r\n  min-height: 1000px;\r\n  text-shadow: 1px 1px black;\r\n}\r\n\r\n.xunlaiBackground[_ngcontent-%COMP%] {\r\n  background-image: url('xunlaiBackground.99bf115ba1d3831aa60e.jpg');\r\n  color: white;\r\n  font-family: \"Papyrus\";\r\n  font-size: 30px;\r\n  min-height: 1000px;\r\n  text-shadow: 1px 1px black;\r\n}\r\n\r\n.small-font[_ngcontent-%COMP%] {\r\n  font-size: 15px;\r\n  margin-top: 300px;\r\n}\r\n\r\n.event-title[_ngcontent-%COMP%] {\r\n  color: white;\r\n  font-family: \"Blackadder ITC\";\r\n  font-size: 120px;\r\n}"];
 
 
 
@@ -72623,7 +72623,7 @@ _angular_platform_browser__WEBPACK_IMPORTED_MODULE_4__["platformBrowser"]().boot
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/zswearingen/code/kefApp/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\Code\kefApp\src\main.ts */"./src/main.ts");
 
 
 /***/ })
