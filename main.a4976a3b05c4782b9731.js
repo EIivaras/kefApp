@@ -72288,7 +72288,7 @@ var ResourcesComponent = /** @class */ (function () {
         window.open('https://docs.google.com/document/d/1HiDB05nDKABYEfbRQI8-KXGr9e5qMkV64OrHmlo29Yc/edit?usp=sharing', '_blank');
     };
     ResourcesComponent.prototype.submissionClick = function () {
-        window.open('https://goo.gl/forms/V5tPIcmleOnWIOka2', '_blank');
+        window.open('https://forms.gle/Srm7BB66VGQH7BZe8', '_blank');
     };
     ResourcesComponent.prototype.villainClick = function () {
         window.open('https://docs.google.com/forms/d/e/1FAIpQLSeJDDkQUITA_APxHPwOaNl_Hr5-8YODaRYl2rSN_b2pisb0pA/viewform', '_blank');
